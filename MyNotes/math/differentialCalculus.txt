@@ -1,0 +1,54 @@
+Differential equations concepts
+1. Ordinary differential equations
+	1.1. 1st order ODE
+		1.1.1. Linear
+			1.1.1.1. Integrating factor
+		1.1.2. Reducible to linear
+			1.2.1. Bernoulli's standard form
+		1.1.3. Homogenous
+		1.1.4. Reducible to homogenous
+	1.2. Higher order ODE
+		1.2.0. Higher order ODE
+		--Discusses topics, notation, scope--
+		1.2.1. F(D)y = 0
+			1.2.1.1. Auxiliary equation --AE--
+		1.2.2. F(D)y = f(x)
+			1.2.2.1. Complementary function --CF--
+			1.2.2.2. Particular integral --PI-- 
+			1.2.2.3. Complete solution
+		1.2.3. 2nd order ODE
+			1.2.3.1. Using part of CF
+			1.2.3.2. Reducing to normal form
+			1.2.3.3. Variation of parameters
+			1.2.3.4. Clairaut's equation
+				1.2.3.4.1. Singular solution
+	1.3. Exact equations
+		1.3.1. Conditions for a differential equation to be exact
+			1.3.1.1. Necessary condition with proof
+			1.3.1.2. Sufficient condition with proof
+		1.3.2. General solution
+	1.4. Orthogonal trajectory
+		1.4.1. Self-orthogonal family of curves
+	1.5. Simultaneous equations
+		1.5.1. Form
+		1.5.2. Solution
+			1.5.2.1. Meaning
+			1.5.2.2. Method
+2. Partial differential equations
+	2.1. Formation of PDE
+		2.1.1. By elimination of arbitrary constants
+		2.1.2. By elimination of arbitrary functions
+	2.2. 1st order linear PDE
+	--
+	Called linear since the maximum power any partial derivative is raised to is 1
+	--
+		2.2.1. Pp + Qq = R
+	2.3. 1st order non-linear PDE
+	--
+	Called non-linear since the partial derivatives can be raised to powers >1
+	--
+		2.3.1. f(x, p) = g(y, q)
+		2.3.2. f(p, q) = 0
+		2.3.3. f(z, p, q) = 0
+		2.3.4. Charpit's method of solving PDE f(x, y, x, p, q) = 0
+			2.3.4.1. Charpit's AE
