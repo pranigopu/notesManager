@@ -1,0 +1,90 @@
+Real analysis
+--Deals with sets of real numbers--
+---*---*---
+SYMBOL KEY
+	--...-- denote comments
+	* denotes relationship or connection (to another concept or section)
+	>> denotes hierarchy e.g. parent >> child
+---*---*---
+0. Necessary concepts
+	0.1. Equivalent set
+	0.2. Neighbourhood of a point 
+	*Section 2.1
+	0.3. Absolute value
+	0.4. Special sets
+		0.4.1. Rational numbers
+		0.4.2. Irrational numbers
+		0.4.3. Real numbers
+		0.4.4. Natural numbers
+		0.4.5. Integers
+1. Counting a set's elements
+	1.1. Finite
+	1.2. Infinite
+	1.3. Countable
+	1.4. Uncountable 
+2. Bounding a set's elements
+--Enclosing them in a finite space on the real number line--
+	2.1. Limit point
+	2.2. Interval
+		2.2.1. Open
+		2.2.2. Closed
+	2.3. Bound
+		2.3.1. Upper
+			2.3.1.1. Supremum
+		2.3.2. Lower
+			2.3.2.1. Infimum
+--
+2.1 helps locate the end points of the interval containing set.
+2.3 describes the nature and properties of the end points of the interval
+--
+3. Bounding neighbourhoods
+	3.1. Open set
+	--There exists some neighbourhood that lie within the set for all points of the set--
+	3.2. Closed set
+	--There exists no neighbourhood that lie within the set for some points of the set--
+4. Sequence
+<<Section 1.3
+--Not a set since repetition of terms is possible--
+	4.1. Limit of a sequence 
+	*Section 2.3
+	4.2. Convergence
+		4.2.1. Cauchy's principle for convergence of a sequence
+	4.3. Divergence 
+	4.4. Oscillation
+	Sections from 4.2 to 4.4 *Section 4.1
+	4.5. Monotonic
+		4.5.1. Increasing
+		4.5.2. Decreasing
+	4.6. Nature of standard sequences
+		4.6.1. {(1+1/n)^n}, which converges to the irrational number e
+		4.6.2. {x^n}, whose nature depends on x
+			4.6.2.1. x>1 --diverges to positive infinity-- 
+			4.6.2.2. -1<x<1 --converges to 0--
+			4.6.2.3. x<-1 --diverges to negative infinity--
+		4.6.3. {n^(1/n)}, which converges to 1
+		4.6.4. {x^(1/n)}, which converges to 1
+		4.6.5. {n•sin(pi/k•n)}, where k is a real number
+5. Infinite series
+	5.1. Basic concepts
+		5.1.1. Series of positive terms
+		5.1.2. Alternating series
+		5.1.3. Partial sums
+	5.2. Behaviour of an infinite series
+		5.2.1. Convergence 
+		5.2.2. Divergence 
+		5.2.3. Oscillation
+	5.3. Elementary operations of series
+		5.3.1. Term-wise multiplication by a non-zero number
+		5.3.2. Term-wise addition and subtraction of two series
+		5.3.3. Addition or removal of a finite number of terms
+	5.4. Geometric series
+	5.5. Convergence of a series
+		5.4.1. Tests for convergence
+			5.4.1.1. nth term test
+			5.4.1.2. Comparison test 1		|
+			5.4.1.3. Comparison test 2		|
+			5.4.1.4. Comparison test 3		| Applicable for only
+			5.4.1.5. Comparison test 4		| series of +ve terms
+			5.4.1.6. Comparison test 5		|
+			5.4.1.7. D'Alembert's ratio test	|
+		5.4.2. Cauchy's principle for convergence of a series
