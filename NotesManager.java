@@ -300,7 +300,7 @@ class NoteHandler extends FileHandlingImplementation
 {
     NoteHandler(){}
 }
-class NoteTaking
+class NotesManager
 {
     public static void main(String args[]) throws IOException
     {
